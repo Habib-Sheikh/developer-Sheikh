@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.clr::before{
+    content: '';
+    clear: both;
+    display: block;
+}
+.room{
+    height: auto;
+    width: 1200px;
+    border: 1px solid #585264;
+    margin: auto;
+    margin-top: 50px;
+}
+.sofa{
+    width: 30%;
+    height: 50px;
+    background: rgb(125, 155, 211);
+    float: left;
+}
+.chear{
+    width: 70%;
+    height: 50px;
+    background: rgb(75, 133, 167);
+    float: right;
+    
+}
+h2{
+    text-align: center;
+    margin-top: 1px;
+    font-size: 40px;
+    color: rgb(85, 66, 53);
+    font-style: italic;
+   
+}
+.chear ul{
+    
+}
+.chear ul li{
+    list-style: none;
+    float:left;
+    border-left: 1px solid #fff;
+    padding: 20px;
+    
+   
+}
+.chear ul li a{
+    text-decoration: none;
+    padding: 10px;
+    
+}
+
+
+
+img{
+   height: auto;
+   width: 500px; 
+   float: left;
+   border-top: 4px solid #454847;
+}
+
+p{
+    
+}
+/*        menu   */
+.ik ul{
+    list-style: none;
+    margin-right: 20px;
+}
+.logo h4{
+    font-size: 30px;
+    font-style: italic;
+    color: #dadada;
+    float: left;
+    background: #124578;
+    width: 30%;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 10px 40px 10px 40px ;
+}
+
+.ik ul li{
+    float: right;
+    background: rgb(245, 110, 110);
+    margin-top: 20px;
+    padding: 10px 10px;
+    border-left: 1px solid #fff;
+    border-radius: 40px 10px 40px 10px;
+    width: 15%;
+    
+}
+.ik ul li a{
+    
+    color:#034420;
+    padding: 10px;
+    text-decoration: none;
+    
+}
+
+
+.h{
+   background-image: url(./index.jpg); 
+   background-position: top left;
+   padding: 100px 0px;
+   margin-top: 70px;
+   height: 200px;
+   background-attachment: fixed;
+}
+.h h2{
+    color: #fff;
+    font-style: oblique;
+    font-size: 100px;
+    text-shadow: 4px 5px  #9c1ccf;
+}
+.h p{
+    color: rgb(231, 26, 26);
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+   
+}
+.footer{
+
+}
+.firstbox{
+    
+    border: 2px solid #12567858;
+    
+}
+img{
+    float: left;
+    width: 400px;
+}
+
+p{
+    border-top: 3px solid #000000;
+}
+.uu{
+    margin-top: 50px;
+    margin-left: auto;
+    border:5px solid #598412;
+
+}
+.id img{
+    float: left;
+    width: 49%;
+    border: 1px solid #f5c011;
+    margin-top: 20px;
+}
+.bd ol{
+    float: right;
+    font-size: 20px;
+    width: 49%;
+    border: 1px solid #456554;
+    margin-top: 20px;
+    font-display: 12.25;
+    
+}
+h5{
+    color: #fff;
+    background: rgb(3, 37, 37);
+    clear: both;
+    font-style: italic;
+    font-size: 30px;
+    text-align: center;
+}
